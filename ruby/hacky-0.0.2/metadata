@@ -1,0 +1,81 @@
+--- !ruby/object:Gem::Specification
+name: hacky
+version: !ruby/object:Gem::Version
+  version: 0.0.2
+platform: ruby
+authors:
+- yunlei
+autorequire: 
+bindir: bin
+cert_chain: []
+date: 2014-08-14 00:00:00.000000000 Z
+dependencies:
+- !ruby/object:Gem::Dependency
+  name: bundler
+  requirement: !ruby/object:Gem::Requirement
+    requirements:
+    - - "~>"
+      - !ruby/object:Gem::Version
+        version: '1.6'
+  type: :development
+  prerelease: false
+  version_requirements: !ruby/object:Gem::Requirement
+    requirements:
+    - - "~>"
+      - !ruby/object:Gem::Version
+        version: '1.6'
+- !ruby/object:Gem::Dependency
+  name: rake
+  requirement: !ruby/object:Gem::Requirement
+    requirements:
+    - - "~>"
+      - !ruby/object:Gem::Version
+        version: '10.0'
+  type: :development
+  prerelease: false
+  version_requirements: !ruby/object:Gem::Requirement
+    requirements:
+    - - "~>"
+      - !ruby/object:Gem::Version
+        version: '10.0'
+description: Hacky Hacky Hacky
+email:
+- yunlei.liu@appfolio.com
+executables: []
+extensions:
+- Rakefile
+extra_rdoc_files: []
+files:
+- ".gitignore"
+- Gemfile
+- LICENSE.txt
+- README.md
+- Rakefile
+- hacky.gemspec
+- lib/hacky.rb
+- lib/hacky/version.rb
+homepage: https://github.com/ipmsteven/hacky
+licenses:
+- MIT
+metadata: {}
+post_install_message: 
+rdoc_options: []
+require_paths:
+- lib
+required_ruby_version: !ruby/object:Gem::Requirement
+  requirements:
+  - - ">="
+    - !ruby/object:Gem::Version
+      version: '0'
+required_rubygems_version: !ruby/object:Gem::Requirement
+  requirements:
+  - - ">="
+    - !ruby/object:Gem::Version
+      version: '0'
+requirements: []
+rubyforge_project: 
+rubygems_version: 2.2.2
+signing_key: 
+specification_version: 4
+summary: Hacky Hacky Hacky
+test_files: []

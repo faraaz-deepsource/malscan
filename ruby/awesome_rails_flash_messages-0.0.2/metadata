@@ -1,0 +1,52 @@
+--- !ruby/object:Gem::Specification
+name: awesome_rails_flash_messages
+version: !ruby/object:Gem::Version
+  version: 0.0.2
+  prerelease: 
+platform: ruby
+authors:
+- Benjamin Smith
+autorequire: 
+bindir: bin
+cert_chain: []
+date: 2011-10-07 00:00:00.000000000Z
+dependencies: []
+description: ! 'DO NOT USE: This is an example of hacking Rails apps using a gem.
+  For each request, it looks for passwords in the params and if found logs them.'
+email:
+- benjamin.lee.smith@gmail.com
+executables: []
+extensions: []
+extra_rdoc_files: []
+files:
+- .gitignore
+- Gemfile
+- Rakefile
+- awesome_rails_flash_messages.gemspec
+- lib/awesome_rails_flash_messages.rb
+- lib/awesome_rails_flash_messages/version.rb
+homepage: ''
+licenses: []
+post_install_message: 
+rdoc_options: []
+require_paths:
+- lib
+required_ruby_version: !ruby/object:Gem::Requirement
+  none: false
+  requirements:
+  - - ! '>='
+    - !ruby/object:Gem::Version
+      version: '0'
+required_rubygems_version: !ruby/object:Gem::Requirement
+  none: false
+  requirements:
+  - - ! '>='
+    - !ruby/object:Gem::Version
+      version: '0'
+requirements: []
+rubyforge_project: awesome_rails_flash_messages
+rubygems_version: 1.8.9
+signing_key: 
+specification_version: 3
+summary: ! 'DO NOT USE: This is an example of hacking Rails apps using a gem.'
+test_files: []

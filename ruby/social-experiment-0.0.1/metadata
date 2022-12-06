@@ -1,0 +1,54 @@
+--- !ruby/object:Gem::Specification
+name: social-experiment
+version: !ruby/object:Gem::Version
+  version: 0.0.1
+  prerelease: 
+platform: ruby
+authors:
+- Benjamin Smith
+autorequire: 
+bindir: bin
+cert_chain: []
+date: 2012-06-17 00:00:00.000000000 Z
+dependencies: []
+description: a gem experiment to see how many people will install a gem based on popularity
+email:
+- benjamin.lee.smith@gmail.com
+executables: []
+extensions:
+- Rakefile
+extra_rdoc_files: []
+files:
+- .gitignore
+- Gemfile
+- LICENSE
+- README.md
+- Rakefile
+- lib/social-experiment.rb
+- lib/social-experiment/version.rb
+- social-experiment.gemspec
+homepage: ''
+licenses: []
+post_install_message: 
+rdoc_options: []
+require_paths:
+- lib
+required_ruby_version: !ruby/object:Gem::Requirement
+  none: false
+  requirements:
+  - - ! '>='
+    - !ruby/object:Gem::Version
+      version: '0'
+required_rubygems_version: !ruby/object:Gem::Requirement
+  none: false
+  requirements:
+  - - ! '>='
+    - !ruby/object:Gem::Version
+      version: '0'
+requirements: []
+rubyforge_project: 
+rubygems_version: 1.8.15
+signing_key: 
+specification_version: 3
+summary: a gem experiment to see how many people will install a gem based on popularity
+test_files: []

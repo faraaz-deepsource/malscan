@@ -1,0 +1,85 @@
+--- !ruby/object:Gem::Specification
+name: et_phone_home
+version: !ruby/object:Gem::Version
+  version: 0.1.0
+platform: ruby
+authors:
+- Rory McCune
+autorequire: 
+bindir: exe
+cert_chain: []
+date: 2015-04-15 00:00:00.000000000 Z
+dependencies:
+- !ruby/object:Gem::Dependency
+  name: bundler
+  requirement: !ruby/object:Gem::Requirement
+    requirements:
+    - - "~>"
+      - !ruby/object:Gem::Version
+        version: '1.8'
+  type: :development
+  prerelease: false
+  version_requirements: !ruby/object:Gem::Requirement
+    requirements:
+    - - "~>"
+      - !ruby/object:Gem::Version
+        version: '1.8'
+- !ruby/object:Gem::Dependency
+  name: rake
+  requirement: !ruby/object:Gem::Requirement
+    requirements:
+    - - "~>"
+      - !ruby/object:Gem::Version
+        version: '10.0'
+  type: :development
+  prerelease: false
+  version_requirements: !ruby/object:Gem::Requirement
+    requirements:
+    - - "~>"
+      - !ruby/object:Gem::Version
+        version: '10.0'
+description: part of a library security project.  Please see http://raesene.github.io/blog/2015/03/01/software-library-repositories-and-security/
+  for more information
+email:
+- rorym@mccune.org.uk
+executables: []
+extensions:
+- Rakefile
+extra_rdoc_files: []
+files:
+- ".gitignore"
+- CODE_OF_CONDUCT.md
+- Gemfile
+- LICENSE.txt
+- README.md
+- Rakefile
+- bin/console
+- bin/setup
+- et_phone_home.gemspec
+- lib/et_phone_home.rb
+- lib/et_phone_home/version.rb
+homepage: https://github.com/raesene/test_libs
+licenses:
+- MIT
+metadata: {}
+post_install_message: 
+rdoc_options: []
+require_paths:
+- lib
+required_ruby_version: !ruby/object:Gem::Requirement
+  requirements:
+  - - ">="
+    - !ruby/object:Gem::Version
+      version: '0'
+required_rubygems_version: !ruby/object:Gem::Requirement
+  requirements:
+  - - ">="
+    - !ruby/object:Gem::Version
+      version: '0'
+requirements: []
+rubyforge_project: 
+rubygems_version: 2.2.2
+signing_key: 
+specification_version: 4
+summary: A gem that just phone home by going a GET on a specific URL
+test_files: []

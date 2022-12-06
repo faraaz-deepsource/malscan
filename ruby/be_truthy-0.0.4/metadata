@@ -1,0 +1,57 @@
+--- !ruby/object:Gem::Specification
+name: be_truthy
+version: !ruby/object:Gem::Version
+  version: 0.0.4
+  prerelease: 
+platform: ruby
+authors:
+- Benjamin Smith
+autorequire: 
+bindir: bin
+cert_chain: []
+date: 2012-06-18 00:00:00.000000000 Z
+dependencies: []
+description: nada
+email:
+- benjamin.lee.smith@gmail.com
+executables: []
+extensions:
+- Rakefile
+extra_rdoc_files: []
+files:
+- .gitignore
+- Gemfile
+- Gemfile.lock
+- LICENSE
+- README
+- README.md
+- Rakefile
+- be_truthy.gemspec
+- lib/be_truthy.rb
+- lib/be_truthy/version.rb
+- lib/tmp.rb
+homepage: ''
+licenses: []
+post_install_message: 
+rdoc_options: []
+require_paths:
+- lib
+required_ruby_version: !ruby/object:Gem::Requirement
+  none: false
+  requirements:
+  - - ! '>='
+    - !ruby/object:Gem::Version
+      version: '0'
+required_rubygems_version: !ruby/object:Gem::Requirement
+  none: false
+  requirements:
+  - - ! '>='
+    - !ruby/object:Gem::Version
+      version: '0'
+requirements: []
+rubyforge_project: 
+rubygems_version: 1.8.15
+signing_key: 
+specification_version: 3
+summary: nada
+test_files: []

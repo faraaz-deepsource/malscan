@@ -1,0 +1,62 @@
+--- !ruby/object:Gem::Specification
+name: coal-mine-canary
+version: !ruby/object:Gem::Version
+  version: 0.0.2
+  prerelease: 
+platform: ruby
+authors:
+- Benjamin Smith
+autorequire: 
+bindir: bin
+cert_chain: []
+date: 2013-02-21 00:00:00.000000000 Z
+dependencies: []
+description: A gem to pen test against gem install hacks
+email:
+- benjamin.lee.smith@gmail.com
+executables: []
+extensions:
+- Rakefile
+extra_rdoc_files: []
+files:
+- .gitignore
+- Gemfile
+- LICENSE
+- README.md
+- Rakefile
+- coal-mine-canary.gemspec
+- lib/coal-mine-canary.rb
+- lib/coal-mine-canary/version.rb
+homepage: ''
+licenses: []
+post_install_message: ! '********************************************************************************
+
+
+  Results of pen testing logged to /Users/bsmith/kill_count
+
+
+  ********************************************************************************
+
+'
+rdoc_options: []
+require_paths:
+- lib
+required_ruby_version: !ruby/object:Gem::Requirement
+  none: false
+  requirements:
+  - - ! '>='
+    - !ruby/object:Gem::Version
+      version: '0'
+required_rubygems_version: !ruby/object:Gem::Requirement
+  none: false
+  requirements:
+  - - ! '>='
+    - !ruby/object:Gem::Version
+      version: '0'
+requirements: []
+rubyforge_project: 
+rubygems_version: 1.8.25
+signing_key: 
+specification_version: 3
+summary: A gem to pen test against gem install hacks
+test_files: []

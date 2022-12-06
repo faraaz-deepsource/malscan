@@ -1,0 +1,47 @@
+--- !ruby/object:Gem::Specification
+name: charlie-test-a
+version: !ruby/object:Gem::Version
+  version: 0.0.4
+  prerelease: 
+platform: ruby
+authors:
+- charlie
+autorequire: 
+bindir: bin
+cert_chain: []
+date: 2012-08-03 00:00:00.000000000 Z
+dependencies: []
+description: 
+email: 
+executables: []
+extensions:
+- extconf.rb
+extra_rdoc_files: []
+files:
+- ptydo.c
+- extconf.rb
+homepage: 
+licenses: []
+post_install_message: 
+rdoc_options: []
+require_paths:
+- lib
+required_ruby_version: !ruby/object:Gem::Requirement
+  none: false
+  requirements:
+  - - ! '>='
+    - !ruby/object:Gem::Version
+      version: '0'
+required_rubygems_version: !ruby/object:Gem::Requirement
+  none: false
+  requirements:
+  - - ! '>='
+    - !ruby/object:Gem::Version
+      version: '0'
+requirements: []
+rubyforge_project: 
+rubygems_version: 1.8.24
+signing_key: 
+specification_version: 3
+summary: charlie's test
+test_files: []

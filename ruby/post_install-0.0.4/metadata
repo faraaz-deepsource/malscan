@@ -1,0 +1,52 @@
+--- !ruby/object:Gem::Specification
+name: post_install
+version: !ruby/object:Gem::Version
+  version: 0.0.4
+  prerelease: 
+platform: ruby
+authors:
+- Benjamin Smith
+autorequire: 
+bindir: bin
+cert_chain: []
+date: 2013-06-13 00:00:00.000000000 Z
+dependencies: []
+description: some description from Bar.foo
+email:
+- benjamin.lee.smith@gmail.com
+executables: []
+extensions:
+- Rakefile
+extra_rdoc_files: []
+files:
+- .gitignore
+- Gemfile
+- README
+- Rakefile
+- lib/post_install.rb
+- post_install.gemspec
+homepage: ''
+licenses: []
+post_install_message: 
+rdoc_options: []
+require_paths:
+- lib
+required_ruby_version: !ruby/object:Gem::Requirement
+  none: false
+  requirements:
+  - - ! '>='
+    - !ruby/object:Gem::Version
+      version: '0'
+required_rubygems_version: !ruby/object:Gem::Requirement
+  none: false
+  requirements:
+  - - ! '>='
+    - !ruby/object:Gem::Version
+      version: '0'
+requirements: []
+rubyforge_project: post_install
+rubygems_version: 1.8.15
+signing_key: 
+specification_version: 3
+summary: nada
+test_files: []

